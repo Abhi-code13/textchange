@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #head {
+            font-size: 32px;
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- question-1 -->
+    <h1 id="head">Webskitters</h1>
+    <button onclick="changetext()">Click</button> <!-- button created with new function declared changetext() -->
+    <script>
+        function changetext() {
+            const head = document.getElementById("head")
+            head.innerHTML = "Welcome";
+        }
+    </script>
+</body>
+
+</html>
